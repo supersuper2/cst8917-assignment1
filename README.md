@@ -42,8 +42,8 @@ CREATE TABLE dbo.image_metadata (
 );
 ```
 
-### Configuration in Azure Portal  
-- **Application Settings:**
+### Configuration in local.settings.json
+- **Add Connection Strings for storage and SQL:**
   - `AzureWebJobsStorage` – Blob connection string  
   - `SQLConnectionString` – SQL connection string
 
